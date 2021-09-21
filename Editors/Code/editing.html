@@ -1,0 +1,404 @@
+<html class="js csstransforms3d">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Ionide
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/css/nucleus.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/static/css/hybrid.css"/>
+    <link rel="stylesheet" href="/static/css/featherlight.min.css"/>
+    <link rel="stylesheet" href="/static/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" href="/static/css/auto-complete.css"/>
+    <link rel="stylesheet" href="/static/css/atom-one-dark-reasonable.css"/>
+    <link rel="stylesheet" href="/static/css/theme.css"/>
+    <link rel="stylesheet" href="/static/css/theme-blue.css"/>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1 id="logo">
+            Ionide
+          </h1>
+          <img id="logo-pic" src="/static/images/logo.png"/>
+        </div>
+        <div class="searchbox">
+          <label for="search-by">
+            <i class="fas fa-search"></i>
+          </label>
+          <input data-search-input="" id="search-by" type="search" placeholder="Search..."/>
+          <span data-search-clear="">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <script type="text/javascript" src="/static/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/static/js/auto-complete.js"></script>
+        <script type="text/javascript">
+          var baseurl =''
+        </script>
+        <script type="text/javascript" src="/static/js/search.js"></script>
+        <script src="/static/js/highlight.pack.js"></script>
+        <script>
+          hljs.initHighlightingOnLoad();
+        </script>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li class="dd-item">
+            <a href="/index.html">
+              <b>
+                1
+              </b>
+              Home
+            </a>
+          </li>
+          <li class="dd-item">
+            <a href="/sponsors.html">
+              <b>
+                2
+              </b>
+              Sponsors
+            </a>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                3
+              </b>
+              Libraries
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Libraries/waypoint.html">
+                  <b>
+                    3.1
+                  </b>
+                  Waypoint
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/fsanalyzers.html">
+                  <b>
+                    3.2
+                  </b>
+                  FSharp.Analyzers.SDK
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/eventhorizon.html">
+                  <b>
+                    3.3
+                  </b>
+                  Ionide.EventHorizon
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                4
+              </b>
+              Tools
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Tools/fsac.html">
+                  <b>
+                    4.1
+                  </b>
+                  FsAutoComplete
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/fornax.html">
+                  <b>
+                    4.2
+                  </b>
+                  Fornax
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/dpi.html">
+                  <b>
+                    4.3
+                  </b>
+                  dotnet-proj-info
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/forge.html">
+                  <b>
+                    4.4
+                  </b>
+                  Forge
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                5
+              </b>
+              Editors
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Editors/editoresOverview.html">
+                  <b>
+                    5.1
+                  </b>
+                  Editors overview
+                </a>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.2
+                  </b>
+                  Vim
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/overview.html">
+                      <b>
+                        5.2.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/getting_started.html">
+                      <b>
+                        5.2.2
+                      </b>
+                      Installation
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/usage.html">
+                      <b>
+                        5.2.3
+                      </b>
+                      How to use
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.3
+                  </b>
+                  Code
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Code/overview.html">
+                      <b>
+                        5.3.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/getting_started.html">
+                      <b>
+                        5.3.2
+                      </b>
+                      Getting started
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/generalInfo.html">
+                      <b>
+                        5.3.3
+                      </b>
+                      General information
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/editing.html">
+                      <b>
+                        5.3.4
+                      </b>
+                      Editing evolved
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/options.html">
+                      <b>
+                        5.3.5
+                      </b>
+                      Customization
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <section id="shortcuts">
+          <h3>
+            Shortcuts
+          </h3>
+          <ul>
+            <li>
+              <a class="padding" href="/">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="https://github.com/ionide">
+                <i class="fab fa-github"></i>
+                GitHub Organization
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="/callToAction.html">
+                <i class="far fa-file-alt"></i>
+                Call To Action
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>Built with <a href="https://github.com/ionide/Fornax">Fornax</a>, inspired by <a href="https://learn.netlify.com/en/">Hugo Learn</a></p>
+        </section>
+      </div>
+    </nav>
+    <section id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="body-inner">
+          <span id="sidebar-toggle-span">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+              <i class="fas fa-bars"></i>
+               navigation
+            </a>
+          </span>
+          <h1 id="editing-evolved">Editing evolved</h1>
+<p>Ionide provides variety of language features known from more IDEs such as VS, and set of innovative features that makes you more productive then ever when writing F# code like CodeLenses, integration with FSharpLint and Quick Fixes.</p>
+<h2 id="basic-features">Basic features</h2>
+<p>Following documentation is basic overview of features from Ionide's point of view. If you want to learn more about capabilities of VSCode visit <a href="https://code.visualstudio.com/docs/editor/codebasics">official documentation</a>. We strongly recommend exploring detailed VSCode documentation, especially if you've never worked with similar (Atom, ST3) editor before.</p>
+<h3 id="intellisense">IntelliSense</h3>
+<p>If Ionide knows possible completions, the IntelliSense suggestions will pop up as you type. If you continue typing characters, the list of members (variables, methods, etc.) is filtered to include only members containing your typed characters. Pressing <code>Tab</code> or <code>Enter</code> will insert the selected member.</p>
+<p>You can trigger IntelliSense in any editor window by typing <code>Ctrl+Space</code> or by typing a trigger character (such as the dot character (<code>.</code>)).</p>
+<blockquote>
+<p>Tip: The suggestions widget supports CamelCase filtering meaning you can type the letters which are upper cased in a method name to limit the suggestions. For example, &quot;cra&quot; will quickly bring up &quot;createApplication&quot;.</p>
+</blockquote>
+<p>Additionally, Ionide provides autocompletion for symbols not defined in currently opened modules and namespaces. If you accept such completion with <code>Tab</code> or <code>Enter</code> it will automatically insert appropriate <code>open</code> statement. This behavior is controlled by <code>FSharp.externalAutocomplete</code> setting (default value is <code>true</code>).</p>
+<hr />
+<p>Additionally, you can see quick info for each method by either pressing <code>Ctrl+Space</code> or clicking the info icon. The accompanying documentation for the method will now expand to the side. The expanded documentation will stay so and will update as you navigate the list. You can close this by pressing <code>Ctrl+Space</code> again or by clicking on the close icon.</p>
+<img class="gif" src="/static/images/autocomplete.gif" />
+<h3 id="tooltips">Tooltips</h3>
+<p>Ionide provides rich information about the symbols you hover on - structured signature and nicely formatted documentation text supporting markdown inside of the comments and transforming standard XML comment tags into markdown representation.</p>
+<blockquote>
+<p>Tip: If you press <code>Ctrl</code> while hovering Ionide will also put the body of the symbol in the tooltip.</p>
+</blockquote>
+<img class="gif" src="/static/images/tooltips.gif" />
+<h3 id="error-highlighting">Error highlighting</h3>
+<p>Ionide provides fast error highlighting for local changes, changes in current project and cross project changes without any need to build projects. Error highlighting for current projects works as you edit code, it supports files not saved to disk. For cross project error reporting you need to save the file - it will queue background project type checking which will provide errors asynchronously without blocking any editor operations.</p>
+<p>Errors in VSCode are shown in multiple places:</p>
+<ul>
+<li>In the status bar, there is a summary of all errors and warnings counts.</li>
+<li>You can click on the summary or press <code>Ctrl+Shift+M</code> to display the <code>PROBLEMS</code> panel with a list of all current errors.</li>
+<li>If you open a file that has errors or warnings, they will be rendered inline with the text and in the overview ruler.</li>
+</ul>
+<blockquote>
+<p>Tip: To loop through errors or warnings in the current file, you can press <code>F8</code> or <code>Shift+F8</code> which will show an inline zone detailing the problem and possible code actions (if available).</p>
+</blockquote>
+<img class="gif" src="/static/images/errors.gif" />
+<h3 id="codelens-and-linelens">CodeLens and LineLens</h3>
+<p>Ionide displays type signatures of the symbols either as information over the symbol (inserting virtual line) or as inlined information next to symbol. The behavior is customizable with <code>editor.codeLens</code>, <code>FSharp.lineLens.enabled</code> and <code>FSharp.lineLens.*</code> settings.</p>
+<h3 id="quick-info-panel">Quick Info panel</h3>
+<p>You can check the type of symbol on which cursor currently is in the left part of VSCode Status Bar (bottom bar with different additional information about current position and file)</p>
+<h3 id="generate-record-stubs">Generate record stubs</h3>
+<p>You can generate record stubs by using the <code>Quick Fix</code> feature (Default keyboard shortcut is <code>Ctrl+.</code>). The feature is activated in two ways:</p>
+<ul>
+<li>Using a type hint <code>let p : Person = { }</code> with the cursor over <code>Person</code></li>
+<li>Starting to type the fields of the record</li>
+</ul>
+<img class="gif" src="/static/images/generateRecordStubs.gif" />
+<h3 id="generate-pattern-matching-stubs">Generate pattern matching stubs</h3>
+<p>You can generate pattern matching stubs by using the <code>Quick Fix</code> feature (Default keyboard shortcut is <code>Ctrl+.</code>).</p>
+<h3 id="generate-object-expression-implementation-stub">Generate object expression implementation stub</h3>
+<p>You can generate object expression implementation stub by using the <code>Quick Fix</code> feature (Default keyboard shortcut is <code>Ctrl+.</code>).</p>
+<h2 id="code-navigation">Code navigation</h2>
+<p>Visual Studio Code has a high productivity code editor which, when combined with programming language services, gives you the power of an IDE and the speed of a text editor. In this part we will show different ways of navigating around the code.</p>
+<h3 id="go-to-definition">Go to definition</h3>
+<p>Ionide provides going to symbol definition. You can do that by pressing <code>F12</code>, pressing right click on symbol and choosing <code>Go to definition</code> or by using <code>Ctrl+Click</code> or running <code>Go to definition</code> from Command Palette.</p>
+<blockquote>
+<p>Tip: You can use <code>Ctrl+Alt+Click</code> or open the definition to the side in additional editor panel.</p>
+</blockquote>
+<h3 id="go-to-type-definition">Go to type definition</h3>
+<p>Ionide provides going to definition of the type of current symbol if the type was defined in local workspace. You can do that by running the <code>Go to Type Definition</code> command from either the editor context menu or the Command Palette.</p>
+<blockquote>
+<p>Tip: The command <code>editor.action.goToTypeDefinition</code> is not bound to a keyboard shortcut by default but you can add your own custom keybinding.</p>
+</blockquote>
+<h3 id="go-to-symbol-in-file">Go to symbol in file</h3>
+<p>You can navigate symbols inside a file with <code>Ctrl+Shift+O</code>. Just press <code>Up</code> or <code>Down</code> and navigate to the place you want.</p>
+<blockquote>
+<p>Tip: By typing <code>:</code> the symbols will be grouped by category.</p>
+</blockquote>
+<h3 id="go-to-symbol-in-workspace">Go to symbol in workspace</h3>
+<p>Ionide support jumping to a symbol across files with <code>Ctrl+T</code>. Just type the first letter of a symbol you want to navigate to, regardless of which file contains it, and press <code>Enter</code>.</p>
+<img class="gif" src="/static/images/goToSymbol.gif" />
+<h3 id="find-all-references--peek-definition">Find all references &amp; Peek definition</h3>
+<p>Ionide also implements providers for finding all references (<code>Shift+F12</code>) of the symbol in currently open solution and peeking definition of the symbol (<code>Alt+F12</code>). VSCode provides peeked editors which enables you to see the source code of the other file inlined without switching context. You can navigate between different references in the peeked editor and make quick edits right there. Clicking on the peeked editor filename or double-clicking in the result list will open the reference in the outer editor.</p>
+<img class="gif" src="/static/images/peek.gif" />
+<h3 id="bracket-matching">Bracket matching</h3>
+<p>Matching brackets will be highlighted as soon as the cursor is near one of them.</p>
+<blockquote>
+<p>Tip: You can jump to the matching bracket with <code>Ctrl+Shift+\</code></p>
+</blockquote>
+<h3 id="go-to-next-symbol-usage">Go to next symbol usage</h3>
+<p>Usages of symbol in current file will be highlighted as soon as the cursor is on the symbol.</p>
+<blockquote>
+<p>Tip: You can jump to the next/previous usage with <code>F7</code> and <code>Shift+F7</code></p>
+</blockquote>
+<h3 id="go-to-msdn-help">Go to MSDN help</h3>
+<p>Ionide provides command for opening MSDN documentation for given symbol. It works only for symbols from F# standard library, and .Net standard library. You can execute command with <code>Shift+F1</code> or from Command Palette (<code>F#: Get Help</code>).</p>
+<h3 id="codeoutline-panel">CodeOutline panel</h3>
+<p>Ionide provides live updated panel showing symbols in current file. It's available as a additional tree view (<code>F# Code Outline</code>) in VSCode Explorer panel. On the panel you can notice 2 buttons - right one collapse (<code>Click</code>) or extends (<code>Alt+Click</code>) all elements in the tree, left one refreshes default collapsing (only modules and namespaces extended, types collapsed).</p>
+<blockquote>
+<p>Tip: Clicking on any node in the tree will move you to the place in file where symbol is defined. It's really useful for navigating around huge files.</p>
+</blockquote>
+<img class="gif" src="/static/images/codeOutline.gif" />
+<h2 id="advanced-analyzers">Advanced analyzers</h2>
+<h3 id="fsharplint-integration">FSharpLint integration</h3>
+<h3 id="unused-value-analyzer">Unused value analyzer</h3>
+<h3 id="unnecessary-open-statement-analyzer">Unnecessary open statement analyzer</h3>
+<h3 id="simplify-name-analyzer">Simplify name analyzer</h3>
+<h2 id="refactoring">Refactoring</h2>
+<h3 id="rename-symbol">Rename symbol</h3>
+<h3 id="quick-fixes">Quick fixes</h3>
+<h3 id="generate-comment-scaffold">Generate comment scaffold</h3>
+
+        </div>
+      </div>
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/jquery.sticky.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script src="/static/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/static/js/learn.js"></script>
+    <script src="/static/js/hugo-learn.js"></script>
+    <link rel="stylesheet" href="/static/mermaid/mermaid.css"/>
+    <script src="/static/mermaid/mermaid.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>

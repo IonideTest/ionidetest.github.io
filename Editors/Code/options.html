@@ -1,0 +1,704 @@
+<html class="js csstransforms3d">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Ionide
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/css/nucleus.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/static/css/hybrid.css"/>
+    <link rel="stylesheet" href="/static/css/featherlight.min.css"/>
+    <link rel="stylesheet" href="/static/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" href="/static/css/auto-complete.css"/>
+    <link rel="stylesheet" href="/static/css/atom-one-dark-reasonable.css"/>
+    <link rel="stylesheet" href="/static/css/theme.css"/>
+    <link rel="stylesheet" href="/static/css/theme-blue.css"/>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1 id="logo">
+            Ionide
+          </h1>
+          <img id="logo-pic" src="/static/images/logo.png"/>
+        </div>
+        <div class="searchbox">
+          <label for="search-by">
+            <i class="fas fa-search"></i>
+          </label>
+          <input data-search-input="" id="search-by" type="search" placeholder="Search..."/>
+          <span data-search-clear="">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <script type="text/javascript" src="/static/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/static/js/auto-complete.js"></script>
+        <script type="text/javascript">
+          var baseurl =''
+        </script>
+        <script type="text/javascript" src="/static/js/search.js"></script>
+        <script src="/static/js/highlight.pack.js"></script>
+        <script>
+          hljs.initHighlightingOnLoad();
+        </script>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li class="dd-item">
+            <a href="/index.html">
+              <b>
+                1
+              </b>
+              Home
+            </a>
+          </li>
+          <li class="dd-item">
+            <a href="/sponsors.html">
+              <b>
+                2
+              </b>
+              Sponsors
+            </a>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                3
+              </b>
+              Libraries
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Libraries/waypoint.html">
+                  <b>
+                    3.1
+                  </b>
+                  Waypoint
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/fsanalyzers.html">
+                  <b>
+                    3.2
+                  </b>
+                  FSharp.Analyzers.SDK
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/eventhorizon.html">
+                  <b>
+                    3.3
+                  </b>
+                  Ionide.EventHorizon
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                4
+              </b>
+              Tools
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Tools/fsac.html">
+                  <b>
+                    4.1
+                  </b>
+                  FsAutoComplete
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/fornax.html">
+                  <b>
+                    4.2
+                  </b>
+                  Fornax
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/dpi.html">
+                  <b>
+                    4.3
+                  </b>
+                  dotnet-proj-info
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/forge.html">
+                  <b>
+                    4.4
+                  </b>
+                  Forge
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                5
+              </b>
+              Editors
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Editors/editoresOverview.html">
+                  <b>
+                    5.1
+                  </b>
+                  Editors overview
+                </a>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.2
+                  </b>
+                  Vim
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/overview.html">
+                      <b>
+                        5.2.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/getting_started.html">
+                      <b>
+                        5.2.2
+                      </b>
+                      Installation
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/usage.html">
+                      <b>
+                        5.2.3
+                      </b>
+                      How to use
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.3
+                  </b>
+                  Code
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Code/overview.html">
+                      <b>
+                        5.3.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/getting_started.html">
+                      <b>
+                        5.3.2
+                      </b>
+                      Getting started
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/generalInfo.html">
+                      <b>
+                        5.3.3
+                      </b>
+                      General information
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/editing.html">
+                      <b>
+                        5.3.4
+                      </b>
+                      Editing evolved
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/options.html">
+                      <b>
+                        5.3.5
+                      </b>
+                      Customization
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <section id="shortcuts">
+          <h3>
+            Shortcuts
+          </h3>
+          <ul>
+            <li>
+              <a class="padding" href="/">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="https://github.com/ionide">
+                <i class="fab fa-github"></i>
+                GitHub Organization
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="/callToAction.html">
+                <i class="far fa-file-alt"></i>
+                Call To Action
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>Built with <a href="https://github.com/ionide/Fornax">Fornax</a>, inspired by <a href="https://learn.netlify.com/en/">Hugo Learn</a></p>
+        </section>
+      </div>
+    </nav>
+    <section id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="body-inner">
+          <span id="sidebar-toggle-span">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+              <i class="fas fa-bars"></i>
+               navigation
+            </a>
+          </span>
+          <h1 id="customizing-ionide">Customizing Ionide</h1>
+<h2 id="table-of-contents">Table of Contents</h2>
+<ul>
+<li><a href="#how-to-set-an-option">How to set an option</a></li>
+<li><a href="#ionide-settings">Ionide Settings</a></li>
+<li><a href="#theming">Theming</a></li>
+</ul>
+<h2 id="how-to-set-an-option">How to set an option?</h2>
+<p>It is easy to configure Visual Studio Code to your liking through its various settings. Nearly every part of VS Code's editor, user interface, and functional behavior has options you can modify.</p>
+<p>VS Code provides two different scopes for settings:</p>
+<ul>
+<li><strong>User Settings</strong> - Settings that apply globally to any instance of VS Code you open.</li>
+<li><strong>Workspace Settings</strong> - Settings stored inside your workspace and only apply when the workspace is opened.</li>
+</ul>
+<p>Workspace settings override user settings. Workspace settings are specific to a project and can be shared across developers on a project.</p>
+<blockquote>
+<p>Note: A VS Code &quot;workspace&quot; is usually just your project root folder</p>
+</blockquote>
+<p>To open your user and workspace settings, use the following VS Code menu command:</p>
+<ul>
+<li>On Windows/Linux - <code>File &gt; Preferences &gt; Settings</code></li>
+<li>On macOS - <code>Code &gt; Preferences &gt; Settings</code></li>
+</ul>
+<p>You can also open the Settings editor from the Command Palette (<code>Ctrl+Shift+P</code>) with <code>Preferences: Open Settings</code> or use the keyboard shortcut (<code>Ctrl+,</code>).</p>
+<p>Read more about settings in VSCode in <a href="https://code.visualstudio.com/docs/getstarted/settings">VSCode documentation</a></p>
+<hr />
+<h2 id="ionide-settings">Ionide Settings</h2>
+<h4 id="fsharpfsacdotnetargs"><code>FSharp.fsac.dotnetArgs</code></h4>
+<p>Additional CLI arguments that will be provided to the dotnet runtime when running FSAC. These are fully described at <a href="https://docs.microsoft.com/en-us/dotnet/core/tools/dotnet#runtime-options">the official Microsoft documentation</a>, and in general relate to which runtime FSAC is run on.</p>
+<p><strong>Type:</strong> <code>string []</code></p>
+<p><strong>Default:</strong> <code>[&quot;--roll-forward&quot;, &quot;LatestMajor&quot;]</code> or <code>[]</code></p>
+<p>If FSAC is launched from a directory that has a global.json whose <code>sdk.version</code> is 6.0 or greater, or if the 6.0 SDK is installed and no global.json is present, the <code>--roll-forward LatestMajor</code> arguments will be added to ensure FSAC runs under .net 6 (required to support MSBuild correctly).</p>
+<p>Otherwise no arguments are automatically supplied by Ionide.</p>
+<hr />
+<h4 id="fsharpfsacnetcoredllpath"><code>FSharp.fsac.netCoreDllPath</code></h4>
+<p>The path to the <code>fsautocomplete.dll</code>, useful for debugging a self-built fsac.</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code> </code></p>
+<hr />
+<h4 id="fsharpfsacattachdebugger"><code>FSharp.fsac.attachDebugger</code></h4>
+<p>Appends the '--attachdebugger' argument to fsac, this will allow you to attach a debugger.</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpfsacsilencedlogs"><code>FSharp.fsac.silencedLogs</code></h4>
+<p>An array of log categories for FSAC to filter out. These can be found by viewing your log output and noting the text in between the brackets in the log line. For example, in the log line <code>[16:07:14.626 INF] [Compiler] done compiling foo.fsx</code>, the category is 'Compiler'.</p>
+<p><strong>Type:</strong> <code>string []</code></p>
+<p><strong>Default:</strong> <code>[ ]</code></p>
+<hr />
+<h4 id="fsharpworkspacemodepeekdeeplevel"><code>FSharp.workspaceModePeekDeepLevel</code></h4>
+<p>The deep level of directory hierarchy when searching for sln/projects</p>
+<p><strong>Type:</strong> <code>int</code></p>
+<p><strong>Default:</strong> <code>4</code></p>
+<hr />
+<h4 id="fsharpfsifilepath"><code>FSharp.fsiFilePath</code></h4>
+<p>The path to the F# Interactive tool used by Ionide-FSharp (.NET framework only, on .NET Core <code>FSharp.fsiSdkFilePath</code> is used)</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code> </code></p>
+<hr />
+<h4 id="fsharpfsisdkfilepath"><code>FSharp.fsiSdkFilePath</code></h4>
+<p>The path to the F# Interactive tool used by Ionide-FSharp (when using .NET SDK scripts)</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code> </code></p>
+<hr />
+<h4 id="fsharpkeywordsautocomplete"><code>FSharp.keywordsAutocomplete</code></h4>
+<p>Includes keywords in autocomplete</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpexternalautocomplete"><code>FSharp.externalAutocomplete</code></h4>
+<p>Includes external (from unopened modules and namespaces) symbols in autocomplete</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharplinter"><code>FSharp.linter</code></h4>
+<p>Enables integration with <a href="https://fsprojects.github.io/FSharpLint/">FSharpLint</a> for additional (user-defined) warnings</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpunioncasestubgeneration"><code>FSharp.unionCaseStubGeneration</code></h4>
+<p>Enables a codefix that generates missing union cases when in a match expression</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpunioncasestubgenerationbody"><code>FSharp.unionCaseStubGenerationBody</code></h4>
+<p>The expression to fill in the right-hand side of match cases when generating missing cases for a match on a discriminated union</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>failwith \&quot;Not Implemented\&quot;</code></p>
+<hr />
+<h4 id="fsharprecordstubgeneration"><code>FSharp.recordStubGeneration</code></h4>
+<p>Enables a codefix that will generate missing record fields when inside a record construction expression</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharprecordstubgenerationbody"><code>FSharp.recordStubGenerationBody</code></h4>
+<p>The expression to fill in the right-hand side of record fields when generating missing fields for a record construction expression</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>failwith \&quot;Not Implemented\&quot;</code></p>
+<hr />
+<h4 id="fsharpinterfacestubgeneration"><code>FSharp.interfaceStubGeneration</code></h4>
+<p>Enables a codefix that generates missing interface members when inside of an interface implementation expression</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpinterfacestubgenerationmethodbody"><code>FSharp.interfaceStubGenerationMethodBody</code></h4>
+<p>The expression to fill in the right-hand side of interface members when generating missing members for an interface implementation expression</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>failwith \&quot;Not Implemented\&quot;</code></p>
+<hr />
+<h4 id="fsharpinterfacestubgenerationobjectidentifier"><code>FSharp.interfaceStubGenerationObjectIdentifier</code></h4>
+<p>The name of the 'self' identifier in an interface member. For example, <code>this</code> in the expression <code>this.Member(x: int) = ()</code></p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>this</code></p>
+<hr />
+<h4 id="fsharpabstractclassstubgeneration"><code>FSharp.abstractClassStubGeneration</code></h4>
+<p>Enables a codefix that generates missing members for an abstract class when in an type inheriting from that abstract class.</p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpabstractclassstubgenerationobjectidentifier"><code>FSharp.abstractClassStubGenerationObjectIdentifier</code></h4>
+<p>The name of the 'self' identifier in an inherited member. For example, <code>this</code> in the expression <code>this.Member(x: int) = ()</code></p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>this</code></p>
+<hr />
+<h4 id="fsharpabstractclassstubgenerationmethodbody"><code>FSharp.abstractClassStubGenerationMethodBody</code></h4>
+<p>The expression to fill in the right-hand side of inherited members when generating missing members for an abstract base class</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>failwith \&quot;Not Implemented\&quot;</code></p>
+<hr />
+<h4 id="fsharpunusedopensanalyzer"><code>FSharp.unusedOpensAnalyzer</code></h4>
+<p>Enables detection of unused opens</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpunuseddeclarationsanalyzer"><code>FSharp.unusedDeclarationsAnalyzer</code></h4>
+<p>Enables detection of unused declarations</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpsimplifynameanalyzer"><code>FSharp.simplifyNameAnalyzer</code></h4>
+<p>Enables detection of cases when names of functions and values can be simplified</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpfsiextraparameters"><code>FSharp.fsiExtraParameters</code></h4>
+<p>An array of additional command line parameters to pass to FSI when it is started. See <a href="https://docs.microsoft.com/en-us/dotnet/fsharp/language-reference/fsharp-interactive-options">the documentation</a> for an exhaustive list.</p>
+<p><strong>Type:</strong> <code>array</code></p>
+<p><strong>Default:</strong> <code>[]</code></p>
+<hr />
+<h4 id="fsharpsaveonsendlastselection"><code>FSharp.saveOnSendLastSelection</code></h4>
+<p>If enabled, the current file will be saved before sending the last selection to FSI for evaluation</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpmsbuildautoshow"><code>FSharp.msbuildAutoshow</code></h4>
+<p>Automatically shows the MSBuild output panel when MSBuild functionality is invoked</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpresolvenamespaces"><code>FSharp.resolveNamespaces</code></h4>
+<p>Enables a codefix that will suggest namespaces or module to open when a name is not recognized</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpenabletreeview"><code>FSharp.enableTreeView</code></h4>
+<p>Enables the solution explorer view of the current workspace, which shows the workspace as MSBuild sees it</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpexcludeprojectdirectories"><code>FSharp.excludeProjectDirectories</code></h4>
+<p>Directories in the array are excluded from project file search. Requires restart.</p>
+<p><strong>Type:</strong> <code>array</code></p>
+<p><strong>Default:</strong> <code>[&quot;.git&quot;,&quot;paket-files&quot;,&quot;.fable&quot;,&quot;packages&quot;,&quot;node_modules&quot;]</code></p>
+<hr />
+<h4 id="fsharplinelensenabled"><code>FSharp.lineLens.enabled</code></h4>
+<p>Usage mode for LineLens. If <code>never</code>, LineLens will never be shown.  If <code>replaceCodeLens</code>, LineLens will be placed in a decoration on top of the current line.</p>
+<p><strong>Type:</strong> <code>enum</code></p>
+<p><strong>Possible values:</strong></p>
+<ul>
+<li><code>never</code></li>
+<li><code>replaceCodeLens</code></li>
+<li><code>always</code></li>
+</ul>
+<p><strong>Default:</strong> <code>replaceCodeLens</code></p>
+<hr />
+<h4 id="fsharplinelensprefix"><code>FSharp.lineLens.prefix</code></h4>
+<p>The prefix displayed before the signature in a LineLens</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code>//</code></p>
+<hr />
+<h4 id="fsharpdisablefailedprojectnotifications"><code>FSharp.disableFailedProjectNotifications</code></h4>
+<p>Disables popup notifications for failed project loading</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpenablebackgroundservices"><code>FSharp.enableBackgroundServices</code></h4>
+<p>Enables background services responsible for creating symbol cache and typechecking files in the background. Requires restart.</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpenablemsbuildprojectgraph"><code>FSharp.enableMSBuildProjectGraph</code></h4>
+<p>EXPERIMENTAL. Enables support for loading workspaces with MsBuild's ProjectGraph. This can improve load times. Requires restart.</p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpenablereferencecodelens"><code>FSharp.enableReferenceCodeLens</code></h4>
+<p>Enables additional code lenses showing number of references of a function or value. Requires background services to be enabled.</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpshowprojectexplorerin"><code>FSharp.showProjectExplorerIn</code></h4>
+<p>Set the activity (left bar) where the project explorer view will be displayed. If <code>explorer</code>, then the project explorer will be a collapsible tab in the main explorer view, a sibling to the file system explorer. If <code>fsharp</code>, a new activity with the F# logo will be added and the project explorer will be rendered in this activity.Requires restart.</p>
+<p><strong>Type:</strong> <code>enum</code></p>
+<p><strong>Possible values:</strong></p>
+<ul>
+<li><code>explorer</code></li>
+<li><code>fsharp</code></li>
+</ul>
+<p><strong>Default:</strong> <code>fsharp</code></p>
+<hr />
+<h4 id="fsharpenableanalyzers"><code>FSharp.enableAnalyzers</code></h4>
+<p>EXPERIMENTAL. Enables F# analyzers for custom code diagnostics. Requires restart.</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpanalyzerspath"><code>FSharp.analyzersPath</code></h4>
+<p>Directories in the array are used as a source of custom analyzers. Requires restart.</p>
+<p><strong>Type:</strong> <code>array</code></p>
+<p><strong>Default:</strong> <code>[&quot;packages/Analyzers&quot;, &quot;analyzers&quot;]</code></p>
+<hr />
+<h4 id="fsharpworkspacepath"><code>FSharp.workspacePath</code></h4>
+<p>Path to the directory or solution file that should be loaded as a workspace. If set, no workspace probing or discovery is done by Ionide at all.</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<hr />
+<h4 id="fsharpshowexploreronstartup"><code>FSharp.showExplorerOnStartup</code></h4>
+<p>Automatically shows solution explorer on plugin startup</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpenabletouchbar"><code>FSharp.enableTouchBar</code></h4>
+<p>Enables TouchBar integration of build/run/debug buttons</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpautorevealinexplorer"><code>FSharp.autoRevealInExplorer</code></h4>
+<p>Controls whether the solution explorer should automatically reveal and select files when opening them. If <code>sameAsFileExplorer</code> is set, then the value of the <code>explorer.autoReveal</code> setting will be used instead.</p>
+<p><strong>Type:</strong> <code>enum</code></p>
+<p><strong>Possible values:</strong></p>
+<ul>
+<li><code>sameAsFileExplorer</code></li>
+<li><code>enabled</code></li>
+<li><code>disabled</code></li>
+</ul>
+<p><strong>Default:</strong> <code>sameAsFileExplorer</code></p>
+<hr />
+<h4 id="fsharpsmartindent"><code>FSharp.smartIndent</code></h4>
+<p>Enables smart indent feature</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpinfopanelupdate"><code>FSharp.infoPanelUpdate</code></h4>
+<p>Controls when the info panel is updated</p>
+<p><strong>Type:</strong> <code>enum</code></p>
+<p><strong>Possible values:</strong></p>
+<ul>
+<li><code>onCursorMove</code></li>
+<li><code>onHover</code></li>
+<li><code>both</code></li>
+<li><code>none</code></li>
+</ul>
+<p><strong>Default:</strong> <code>onCursorMove</code></p>
+<hr />
+<h4 id="fsharpinfopanelreplacehover"><code>FSharp.infoPanelReplaceHover</code></h4>
+<p>Controls whether the info panel replaces tooltips</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpinfopanelstartlocked"><code>FSharp.infoPanelStartLocked</code></h4>
+<p>Controls whether the info panel should be locked at startup</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpinfopanelshowonstartup"><code>FSharp.infoPanelShowOnStartup</code></h4>
+<p>Controls whether the info panel should be displayed at startup</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpverboselogging"><code>FSharp.verboseLogging</code></h4>
+<p>Logs additional information to F# output channel. This is equivalent to passing the <code>--verbose</code> flag to FSAC. Requires restart.</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="faketargetsoutline"><code>FAKE.targetsOutline</code></h4>
+<p>Enables the Targets Outline tree view.</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fakeshowtargetsoutlinein"><code>FAKE.showTargetsOutlineIn</code></h4>
+<p>Set the activity (left bar) where the FAKE targets outline view will be displayed.Requires restart.</p>
+<p><strong>Type:</strong> <code>enum</code></p>
+<p><strong>Possible values:</strong></p>
+<ul>
+<li><code>explorer</code></li>
+<li><code>fsharp</code></li>
+</ul>
+<p><strong>Default:</strong> <code>explorer</code></p>
+<hr />
+<h4 id="fsharpsuggestgitignore"><code>FSharp.suggestGitignore</code></h4>
+<p>Allow Ionide to prompt whenever internal data files aren't included in your project's .gitignore</p>
+<p><strong>Type:</strong> <code>bool</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpsuggestsdkscripts"><code>FSharp.suggestSdkScripts</code></h4>
+<p>Allow Ionide to suggest using .Net SDK FSI for scripting instead of .Net Framework FSI</p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpusesdkscripts"><code>FSharp.useSdkScripts</code></h4>
+<p>Use <code>dotnet fsi</code> instead of <code>fsi.exe</code>/<code>fsharpi</code> to start an FSI session</p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharpdotnetroot"><code>FSharp.dotnetRoot</code></h4>
+<p>Sets the root path for finding locating the dotnet CLI binary. Defaults to the <code>dotnet</code> binary found on your system PATH.</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<hr />
+<h4 id="fsharpaddfsiwatcher"><code>FSharp.addFsiWatcher</code></h4>
+<p>Enables a panel for FSI that shows the value of all existing bindings in the FSI session</p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharpgeneratebinlog"><code>FSharp.generateBinLog</code></h4>
+<p>Enables generation of <code>msbuild.binlog</code> files for project loading. It works only for fresh, non-cached project loading. Run <code>F#: Clear Project Cache</code> and reload window to force fresh loading of all projects. These files can be loaded and inspected using the <a href="https://github.com/KirillOsenkov/MSBuildStructuredLog">MSBuild Structured Logger</a></p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>false</code></p>
+<hr />
+<h4 id="fsharppipelinehintsenabled"><code>FSharp.pipelineHints.enabled</code></h4>
+<p>Enables pipeline hints, which are like LineLenses that appear along each step of a chain of piped expressions</p>
+<p><strong>Type:</strong> <code>boolean</code></p>
+<p><strong>Default:</strong> <code>true</code></p>
+<hr />
+<h4 id="fsharppipelinehintsprefix"><code>FSharp.pipelineHints.prefix</code></h4>
+<p>The prefix displayed before the signature of a pipeline hint</p>
+<p><strong>Type:</strong> <code>string</code></p>
+<p><strong>Default:</strong> <code> //</code></p>
+<hr />
+<h2 id="theming">Theming</h2>
+<p>VS Code allows for very deep theming and customization, and Ionide plugs into this system excellently.
+The Language Server performs advanced syntax highlighting and annotates the source code with <a href="https://code.visualstudio.com/api/language-extensions/semantic-highlight-guide#standard-token-types-and-modifiers">semantic tokens and modifiers</a>.
+These tokens and modifiers can be themed individually in whatever way you want. For a deep dive on semantic tokens, including how
+to find out which tokens and modifiers have been applied to source code that you want to theme, please see the <a href="https://code.visualstudio.com/docs/getstarted/themes#_editor-semantic-highlighting">official documentation</a>.</p>
+<p>In addition to the standard set of tokens and modifiers shown on that documentation, Ionide provides several custom scopes and modifiers:</p>
+<h4 id="scopes">Scopes</h4>
+<ul>
+<li><code>member</code>- used in mutable vars and record fields, as well as exceptions, fields, events, delegates, and named arguments</li>
+<li><code>cexpr</code> - for computation expressions</li>
+<li><code>text</code> - for plaintext strings</li>
+</ul>
+<h4 id="modifiers">Modifiers</h4>
+<ul>
+<li><code>mutable</code> - for any values that are defined as <code>let mutable</code></li>
+<li><code>disposable</code> - for any values that implement <code>System.IDisposable</code></li>
+</ul>
+<h3 id="applying-custom-themes">Applying custom themes</h3>
+<p>Like all settings, theme customizations are stored in settings files, which are described at the top of this page in greater detail.</p>
+<p>Semantic tokens can be overidden on a theme-by-theme basis in the following way:</p>
+<pre><code class="language-js">{
+    &quot;editor.semanticTokenColorCustomizations&quot;: {
+      &quot;[Default Dark+]&quot;: {
+            &quot;enabled&quot;: true,
+            &quot;rules&quot;: {
+                &quot;*.mutable&quot;: {
+                    &quot;foreground&quot;: &quot;#FF0000&quot;,
+                    &quot;fontStyle&quot;: &quot;underline&quot;,
+                },
+                &quot;*.disposable&quot;: {
+                    &quot;foreground&quot;: &quot;#ff8b2c&quot;,
+                    &quot;fontStyle&quot;: &quot;bold&quot;
+                }
+
+            }
+        }
+    }
+}
+</code></pre>
+<p>A few things to note about this example:</p>
+<ul>
+<li>the individual theme names are placed into square brackets</li>
+<li>the <code>rules</code> are a map of <code>scope</code> or <code>modifier</code> to the theme settings to be applied to tokens that match</li>
+<li>the key of a <code>rule</code> can be
+<ul>
+<li>a fully-qualified scope (i.e. <code>&lt;scope&gt;.&lt;modifier&gt;</code>, for example <code>member.mutable</code>)</li>
+<li>just a scope (i.e. <code>member</code>)</li>
+<li>a wildcard modifier (i.e. <code>*.mutable</code> to apply to all mutables, regardless of scope)</li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/jquery.sticky.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script src="/static/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/static/js/learn.js"></script>
+    <script src="/static/js/hugo-learn.js"></script>
+    <link rel="stylesheet" href="/static/mermaid/mermaid.css"/>
+    <script src="/static/mermaid/mermaid.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>

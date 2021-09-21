@@ -1,0 +1,438 @@
+<html class="js csstransforms3d">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Ionide
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/css/nucleus.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/static/css/hybrid.css"/>
+    <link rel="stylesheet" href="/static/css/featherlight.min.css"/>
+    <link rel="stylesheet" href="/static/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" href="/static/css/auto-complete.css"/>
+    <link rel="stylesheet" href="/static/css/atom-one-dark-reasonable.css"/>
+    <link rel="stylesheet" href="/static/css/theme.css"/>
+    <link rel="stylesheet" href="/static/css/theme-blue.css"/>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1 id="logo">
+            Ionide
+          </h1>
+          <img id="logo-pic" src="/static/images/logo.png"/>
+        </div>
+        <div class="searchbox">
+          <label for="search-by">
+            <i class="fas fa-search"></i>
+          </label>
+          <input data-search-input="" id="search-by" type="search" placeholder="Search..."/>
+          <span data-search-clear="">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <script type="text/javascript" src="/static/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/static/js/auto-complete.js"></script>
+        <script type="text/javascript">
+          var baseurl =''
+        </script>
+        <script type="text/javascript" src="/static/js/search.js"></script>
+        <script src="/static/js/highlight.pack.js"></script>
+        <script>
+          hljs.initHighlightingOnLoad();
+        </script>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li class="dd-item">
+            <a href="/index.html">
+              <b>
+                1
+              </b>
+              Home
+            </a>
+          </li>
+          <li class="dd-item">
+            <a href="/sponsors.html">
+              <b>
+                2
+              </b>
+              Sponsors
+            </a>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                3
+              </b>
+              Libraries
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Libraries/waypoint.html">
+                  <b>
+                    3.1
+                  </b>
+                  Waypoint
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/fsanalyzers.html">
+                  <b>
+                    3.2
+                  </b>
+                  FSharp.Analyzers.SDK
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/eventhorizon.html">
+                  <b>
+                    3.3
+                  </b>
+                  Ionide.EventHorizon
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                4
+              </b>
+              Tools
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Tools/fsac.html">
+                  <b>
+                    4.1
+                  </b>
+                  FsAutoComplete
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/fornax.html">
+                  <b>
+                    4.2
+                  </b>
+                  Fornax
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/dpi.html">
+                  <b>
+                    4.3
+                  </b>
+                  dotnet-proj-info
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/forge.html">
+                  <b>
+                    4.4
+                  </b>
+                  Forge
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                5
+              </b>
+              Editors
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Editors/editoresOverview.html">
+                  <b>
+                    5.1
+                  </b>
+                  Editors overview
+                </a>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.2
+                  </b>
+                  Vim
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/overview.html">
+                      <b>
+                        5.2.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/getting_started.html">
+                      <b>
+                        5.2.2
+                      </b>
+                      Installation
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/usage.html">
+                      <b>
+                        5.2.3
+                      </b>
+                      How to use
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.3
+                  </b>
+                  Code
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Code/overview.html">
+                      <b>
+                        5.3.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/getting_started.html">
+                      <b>
+                        5.3.2
+                      </b>
+                      Getting started
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/generalInfo.html">
+                      <b>
+                        5.3.3
+                      </b>
+                      General information
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/editing.html">
+                      <b>
+                        5.3.4
+                      </b>
+                      Editing evolved
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/options.html">
+                      <b>
+                        5.3.5
+                      </b>
+                      Customization
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <section id="shortcuts">
+          <h3>
+            Shortcuts
+          </h3>
+          <ul>
+            <li>
+              <a class="padding" href="/">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="https://github.com/ionide">
+                <i class="fab fa-github"></i>
+                GitHub Organization
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="/callToAction.html">
+                <i class="far fa-file-alt"></i>
+                Call To Action
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>Built with <a href="https://github.com/ionide/Fornax">Fornax</a>, inspired by <a href="https://learn.netlify.com/en/">Hugo Learn</a></p>
+        </section>
+      </div>
+    </nav>
+    <section id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="body-inner">
+          <span id="sidebar-toggle-span">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+              <i class="fas fa-bars"></i>
+               navigation
+            </a>
+          </span>
+          <h1 id="fsautocomplete">FsAutoComplete</h1>
+<p><strong>GitHub link:</strong> <a href="https://github.com/fsharp/FsAutoComplete">https://github.com/fsharp/FsAutoComplete</a>
+<strong>License:</strong> <a href="https://github.com/fsharp/FsAutoComplete/blob/master/LICENSE">Apache 2.0</a></p>
+<p>The <code>FsAutoComplete</code> project (<code>FSAC</code>) provides a backend service for rich editing or intellisense features for editors.
+It can be hosted using the <a href="https://microsoft.github.io/language-server-protocol/">Language Server Protocol</a>.</p>
+<p>Currently it is used by:</p>
+<ul>
+<li><a href="https://github.com/fsharp/emacs-fsharp-mode">Emacs</a></li>
+<li><a href="https://github.com/fsharp/vim-fsharp">Vim</a></li>
+<li><a href="https://github.com/ionide/ionide-vscode-fsharp">Visual Studio Code</a></li>
+</ul>
+<p>It's based on:</p>
+<ul>
+<li><a href="https://github.com/fsharp/FSharp.Compiler.Service/">FSharp.Compiler.Service</a> for F# language info.</li>
+<li><a href="https://github.com/fsprojects/FSharpLint/">FSharpLint</a> for the linter feature.</li>
+<li><a href="https://github.com/fsprojects/fantomas">Fantomas</a> for the formatting feature.</li>
+<li><a href="Tools/dpi.html">Dotnet.ProjInfo</a> for project/solution management.</li>
+<li><a href="/Libraries/fsanalyzers.html">FSharp.Analyzers.SDK</a> for custom project based analyzers</li>
+</ul>
+<h2 id="required-software">Required software</h2>
+<p>FsAutoComplete can run on .NET/mono or .NET Core. We highly recommend using .Net Core version of FSAC as we plan to remove &quot;full framework&quot; version soon - <a href="https://github.com/fsharp/FsAutoComplete/issues/506">read more</a></p>
+<h3 id="fsac-net-core">FSAC .NET Core</h3>
+<ul>
+<li>.NET Core Sdk (Required: &gt;= 2.1, Recommended: &gt;= 3.0 )</li>
+</ul>
+<h3 id="fsac-net-deprecated">FSAC .NET (deprecated)</h3>
+<ul>
+<li>on windows: <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48159">Microsoft Build Tools 2015</a></li>
+<li>on unix/mac: Required: Mono &gt;= 5.12, Recommended: Mono &gt;= 5.18</li>
+</ul>
+<h2 id="communication-protocol">Communication protocol</h2>
+<p>FsAutoComplete supports <a href="https://microsoft.github.io/language-server-protocol/">LSP</a> as a communication protocol.</p>
+<h3 id="supported-lsp-endpoints">Supported LSP endpoints</h3>
+<ul>
+<li><code>initialize</code></li>
+<li><code>textDocument/didOpen</code></li>
+<li><code>textDocument/didChange</code></li>
+<li><code>textDocument/didSave</code></li>
+<li><code>textDocument/hover</code></li>
+<li><code>textDocument/completion</code> &amp; <code>completionItem/resolve</code></li>
+<li><code>textDocument/rename</code></li>
+<li><code>textDocument/definition</code></li>
+<li><code>textDocument/typeDefinition</code></li>
+<li><code>textDocument/implementation</code></li>
+<li><code>textDocument/codeAction</code>:
+<ul>
+<li>Remove unused <code>open</code></li>
+<li>Resolve namespace/module</li>
+<li>Replace unused symbol with <code>_</code></li>
+<li>Fix typo based on error message</li>
+<li>Remove redundant qualifier</li>
+<li>Add missing <code>new</code> keyword for <code>IDisposable</code></li>
+<li>Generate cases for all DU case in pattern matching</li>
+<li>Generate empty interface implementation</li>
+<li>Fixes suggested by <a href="https://github.com/fsprojects/FSharpLint">FSharpLint</a></li>
+</ul>
+</li>
+<li><code>textDocument/codeLens</code> &amp; <code>codeLens/resolve</code>:
+<ul>
+<li>signature Code Lenses</li>
+<li>reference number Code Lenses</li>
+</ul>
+</li>
+<li><code>textDocument/formatting</code> - powered by <a href="https://github.com/fsprojects/fantomas">fantomas</a></li>
+<li><code>textDocument/references</code></li>
+<li><code>textDocument/documentHighlight</code></li>
+<li><code>textDocument/signatureHelp</code></li>
+<li><code>textDocument/documentSymbol</code></li>
+<li><code>workspace/didChangeWatchedFiles</code></li>
+<li><code>workspace/didChangeConfiguration</code></li>
+<li><code>workspace/symbol</code></li>
+</ul>
+<h3 id="custom-endpoints">Custom endpoints</h3>
+<p>Custom endpoints are using (for messages body) <code>PlainNotification</code> type and string format serialized with exactly same serialization format as old JSON protocol</p>
+<ul>
+<li><code>fsharp/signature</code> - accepts <code>TextDocumentPositionParams</code>, returns signature of symbol at given position as a formatted string</li>
+<li><code>fsharp/signatureData</code> - accepts <code>TextDocumentPositionParams</code>, returns signature of symbol at given position as DTO</li>
+<li><code>fsharp/lineLens</code> - accepts <code>ProjectParms</code> (<code>Project</code> filed contain F# file path), returns locations where LineLenses should be displayed</li>
+<li><code>fsharp/compilerLocation</code> - no input, returns paths to FCS, FSI and MsBuild</li>
+<li><code>fsharp/compile</code> - accepts <code>ProjectParms</code>, tries to compile project, returns list of errors and exit status code</li>
+<li><code>fsharp/workspacePeek</code> - accepts <code>WorkspacePeekRequest</code>, returns list of possible workspaces (resolved solution files, or list of projects if there are no solution files)</li>
+<li><code>fsharp/workspaceLoad</code> - accepts <code>WorkspaceLoadParms</code>, loads given list of projects in the background, partial result notified by <code>fsharp/notifyWorkspace</code> notification</li>
+<li><code>fsharp/project</code> - accepts <code>ProjectParms</code>, loads given project</li>
+<li><code>fsharp/fsdn</code> - accepts <code>ProjectParms</code> (<code>Project</code> filed contain query string), query FSDN and returns list of functions</li>
+<li><code>fsharp/f1Help</code> - accepts <code>TextDocumentPositionParams</code>, returns URL to MSDN documentation for symbol at given position</li>
+<li><code>fsharp/documentation</code> - accepts <code>TextDocumentPositionParams</code>, returns documentation data about symbol at given position, used for InfoPanel</li>
+<li><code>fsharp/documentationSymbol</code> - accepts <code>DocumentationForSymbolReuqest</code>, returns documentation data about given symbol from given assembly, used for InfoPanel</li>
+</ul>
+<h3 id="supported-lsp-notifications">Supported LSP notifications</h3>
+<ul>
+<li><code>window/showMessage</code></li>
+<li><code>window/logMessage</code></li>
+<li><code>textDocument/publishDiagnostics</code></li>
+</ul>
+<h3 id="custom-notifications">Custom notifications</h3>
+<ul>
+<li><code>fsharp/notifyWorkspace</code> - notification for workspace/solution/project loading events</li>
+<li><code>fsharp/notifyWorkspacePeek</code> - notification for initial workspace peek</li>
+</ul>
+<h3 id="additional-startup-options">Additional startup options</h3>
+<ul>
+<li><code>--background-service-enabled</code> - passing this flag enables background service feature, increasing FSAC responsiveness by moving some of the operations (especially background type checking) to other process. It results in increased memory usage. Used by default in Ionide.</li>
+<li><code>--verbose</code> - passing this flag enables additional logging being printed out in <code>stderr</code></li>
+<li><code>DOTNET_ROOT</code> - setting this environment variable will set the dotnet SDK root, which is used when finding references for FSX scripts.</li>
+</ul>
+<h3 id="initialization-options">Initialization options</h3>
+<p>Options that should be send as <code>initializationOptions</code> as part of <code>initialize</code> request.</p>
+<ul>
+<li><code>AutomaticWorkspaceInit</code> - setting it to <code>true</code> will start Workspace Loading without need to run <code>fsharp/workspacePeek</code> and <code>fsharp/workspaceLoad</code> commands. It will always choose top workspace from the found list - all projects in workspace if 0 <code>.sln</code> files are found, <code>.sln</code> file if 1 <code>.sln</code> file was found, <code>.sln</code> file with most projects if multiple <code>.sln</code> files were found. It's designed to be used in clients that doesn't allow to create custom UI for selecting workspaces.</li>
+</ul>
+<h3 id="settings">Settings</h3>
+<ul>
+<li><code>FSharp.keywordsAutocomplete</code> - provides keywords in autocomplete list, recommended default value: <code>true</code></li>
+<li><code>FSharp.ExternalAutocomplete</code> - provides autocomplete for symbols from not opened namespaces/modules, insert <code>open</code> on accept, recommended default value: <code>false</code></li>
+<li><code>FSharp.Linter</code> - enables FSharpLint integration, provides additional warnings and code action fixes, recommended default value: <code>true</code></li>
+<li><code>FSharp.UnionCaseStubGeneration</code> - enables code action to generate pattern matching cases, recommended default value: <code>true</code></li>
+<li><code>FSharp.UnionCaseStubGenerationBody</code> - defines dummy body used by pattern matching generator, recommended default value: <code>&quot;failwith \&quot;Not Implemented\&quot;&quot;</code></li>
+<li><code>FSharp.RecordStubGeneration</code> - enables code action to generate record stub, recommended default value: <code>true</code></li>
+<li><code>FSharp.RecordStubGenerationBody</code> - defines dummy body used by record stub generator, recommended default value: <code>&quot;failwith \&quot;Not Implemented\&quot;&quot;</code></li>
+<li><code>FSharp.InterfaceStubGeneration</code> - enables code action to generate interface stub, recommended default value: <code>true</code></li>
+<li><code>FSharp.InterfaceStubGenerationObjectIdentifier</code> - defines object identifier used by interface stub generator,recommended default value: <code>&quot;this&quot;</code></li>
+<li><code>FSharp.InterfaceStubGenerationMethodBody</code> - defines dummy body used by interface stub generator, recommended default value: <code>&quot;failwith \&quot;Not Implemented\&quot;&quot;</code></li>
+<li><code>FSharp.UnusedOpensAnalyzer</code> - enables unused <code>open</code> detections, recommended default value: <code>true</code></li>
+<li><code>FSharp.UnusedDeclarationsAnalyzer</code> - enables unused symbol detection, recommended default value: <code>true</code></li>
+<li><code>FSharp.UseSdkScripts</code> - enables the use of .Net Core SDKs for script file type-checking and evaluation, otherwise the .Net Framework reference lists will be used. Recommended default value: <code>true</code>. Current default value: <code>false</code></li>
+<li><code>FSharp.SimplifyNameAnalyzer</code> - enables simplify name analyzer and remove redundant qualifier quick fix, recommended default value: <code>false</code></li>
+<li><code>FSharp.ResolveNamespaces</code> - enables resolve namespace quick fix (add <code>open</code> if symbol is from not yet opened module/namespace), recommended default value: <code>true</code></li>
+<li><code>FSharp.EnableReferenceCodeLens</code> - enables reference count code lenses, recommended default value: <code>true</code> if <code>--background-service-enabled</code> is used by default, <code>false</code> otherwise</li>
+<li><code>FSharp.dotNetRoot</code> - sets the root path for finding dotnet SDK references. Primarily used for FSX Scripts. Default value: operating-system dependent. On windows, <code>C:\Program Files\dotnet</code>; on Unix, <code>/usr/local/share/dotnet</code></li>
+<li><code>FSharp.fsiExtraParameters</code> - an array of additional runtime arguments that are passed to FSI. These are used when typechecking scripts to ensure that typechecking has the same context as your FSI instances.  An example would be to set the following parameters to enable Preview features (like opening static classes) for typechecking.</li>
+</ul>
+
+        </div>
+      </div>
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/jquery.sticky.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script src="/static/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/static/js/learn.js"></script>
+    <script src="/static/js/hugo-learn.js"></script>
+    <link rel="stylesheet" href="/static/mermaid/mermaid.css"/>
+    <script src="/static/mermaid/mermaid.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>

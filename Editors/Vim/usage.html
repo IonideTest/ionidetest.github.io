@@ -1,0 +1,472 @@
+<html class="js csstransforms3d">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Ionide
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/css/nucleus.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/static/css/hybrid.css"/>
+    <link rel="stylesheet" href="/static/css/featherlight.min.css"/>
+    <link rel="stylesheet" href="/static/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" href="/static/css/auto-complete.css"/>
+    <link rel="stylesheet" href="/static/css/atom-one-dark-reasonable.css"/>
+    <link rel="stylesheet" href="/static/css/theme.css"/>
+    <link rel="stylesheet" href="/static/css/theme-blue.css"/>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1 id="logo">
+            Ionide
+          </h1>
+          <img id="logo-pic" src="/static/images/logo.png"/>
+        </div>
+        <div class="searchbox">
+          <label for="search-by">
+            <i class="fas fa-search"></i>
+          </label>
+          <input data-search-input="" id="search-by" type="search" placeholder="Search..."/>
+          <span data-search-clear="">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <script type="text/javascript" src="/static/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/static/js/auto-complete.js"></script>
+        <script type="text/javascript">
+          var baseurl =''
+        </script>
+        <script type="text/javascript" src="/static/js/search.js"></script>
+        <script src="/static/js/highlight.pack.js"></script>
+        <script>
+          hljs.initHighlightingOnLoad();
+        </script>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li class="dd-item">
+            <a href="/index.html">
+              <b>
+                1
+              </b>
+              Home
+            </a>
+          </li>
+          <li class="dd-item">
+            <a href="/sponsors.html">
+              <b>
+                2
+              </b>
+              Sponsors
+            </a>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                3
+              </b>
+              Libraries
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Libraries/waypoint.html">
+                  <b>
+                    3.1
+                  </b>
+                  Waypoint
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/fsanalyzers.html">
+                  <b>
+                    3.2
+                  </b>
+                  FSharp.Analyzers.SDK
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/eventhorizon.html">
+                  <b>
+                    3.3
+                  </b>
+                  Ionide.EventHorizon
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                4
+              </b>
+              Tools
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Tools/fsac.html">
+                  <b>
+                    4.1
+                  </b>
+                  FsAutoComplete
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/fornax.html">
+                  <b>
+                    4.2
+                  </b>
+                  Fornax
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/dpi.html">
+                  <b>
+                    4.3
+                  </b>
+                  dotnet-proj-info
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/forge.html">
+                  <b>
+                    4.4
+                  </b>
+                  Forge
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                5
+              </b>
+              Editors
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Editors/editoresOverview.html">
+                  <b>
+                    5.1
+                  </b>
+                  Editors overview
+                </a>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.2
+                  </b>
+                  Vim
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/overview.html">
+                      <b>
+                        5.2.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/getting_started.html">
+                      <b>
+                        5.2.2
+                      </b>
+                      Installation
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/usage.html">
+                      <b>
+                        5.2.3
+                      </b>
+                      How to use
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.3
+                  </b>
+                  Code
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Code/overview.html">
+                      <b>
+                        5.3.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/getting_started.html">
+                      <b>
+                        5.3.2
+                      </b>
+                      Getting started
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/generalInfo.html">
+                      <b>
+                        5.3.3
+                      </b>
+                      General information
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/editing.html">
+                      <b>
+                        5.3.4
+                      </b>
+                      Editing evolved
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/options.html">
+                      <b>
+                        5.3.5
+                      </b>
+                      Customization
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <section id="shortcuts">
+          <h3>
+            Shortcuts
+          </h3>
+          <ul>
+            <li>
+              <a class="padding" href="/">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="https://github.com/ionide">
+                <i class="fab fa-github"></i>
+                GitHub Organization
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="/callToAction.html">
+                <i class="far fa-file-alt"></i>
+                Call To Action
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>Built with <a href="https://github.com/ionide/Fornax">Fornax</a>, inspired by <a href="https://learn.netlify.com/en/">Hugo Learn</a></p>
+        </section>
+      </div>
+    </nav>
+    <section id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="body-inner">
+          <span id="sidebar-toggle-span">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+              <i class="fas fa-bars"></i>
+               navigation
+            </a>
+          </span>
+          <h1 id="how-to-use">How to use</h1>
+<p>Opening either <code>*.fs</code>, <code>*.fsi</code> or <code>*.fsx</code> files should trigger syntax highlighting and other depending runtime files as well.</p>
+<h3 id="commands">Commands</h3>
+<p>Refer to <a href="https://github.com/autozimu/LanguageClient-neovim">LanguageClient-neovim</a> for features provided via Language Server Protocol.</p>
+<p>To be added as requested for F#-specific features.</p>
+<h4 id="fsharploadworkspaceauto"><code>:FSharpLoadWorkspaceAuto</code></h4>
+<ul>
+<li>Searches a workspace (<code>sln</code> or <code>fsproj</code>) and then load it.</li>
+<li>Equivalent to <code>FSharp.workspaceMode = sln</code> in Ionide-VSCode.</li>
+<li>Automatically called when you open F# files. Can be disabled in settings.</li>
+<li>The deep level of directory hierarchy to search can also be configured in settings.</li>
+</ul>
+<h4 id="fsharpparseproject-files"><code>:FSharpParseProject &lt;files&gt;+</code></h4>
+<ul>
+<li>Loads specified projects (<code>sln</code> or <code>fsproj</code>).</li>
+</ul>
+<h4 id="fsharpreloadworkspace"><code>:FSharpReloadWorkspace</code></h4>
+<ul>
+<li>Reloads all the projects currently loaded.</li>
+<li>Automatically called when you save <code>.fsproj</code> files. Can be disabled in settings.</li>
+</ul>
+<h4 id="fsharpupdateserverconfig"><code>:FSharpUpdateServerConfig</code></h4>
+<ul>
+<li>Updates FSAC configuration.</li>
+<li>See <a href="#fsautocomplete-settings">FsAutoComplete Settings</a> for details.</li>
+</ul>
+<h4 id="fsharpupdatefsac"><code>:FSharpUpdateFSAC</code></h4>
+<ul>
+<li>Downloads the latest build of FsAutoComplete to be used with Ionide-vim.</li>
+</ul>
+<h3 id="working-with-f-interactive">Working with F# Interactive</h3>
+<p>Ionide-vim has an integration with F# Interactive.</p>
+<p>FSI is displayed using the builtin <code>:terminal</code> feature introduced in Vim 8 / Neovim and can be used like in VSCode.</p>
+<h4 id="fsishow"><code>:FsiShow</code></h4>
+<ul>
+<li>Shows a F# Interactive window.</li>
+</ul>
+<h4 id="fsieval-expr"><code>:FsiEval &lt;expr&gt;</code></h4>
+<ul>
+<li>Evaluates given expression in FSI.</li>
+</ul>
+<h4 id="fsievalbuffer"><code>:FsiEvalBuffer</code></h4>
+<ul>
+<li>Sends the content of current file to FSI.</li>
+</ul>
+<h4 id="fsireset"><code>:FsiReset</code></h4>
+<ul>
+<li>Resets the current FSI session.</li>
+</ul>
+<h4 id="alt-enter"><code>Alt-Enter</code></h4>
+<ul>
+<li>When in normal mode, sends the current line to FSI.</li>
+<li>When in visual mode, sends the selection to FSI.</li>
+<li>Sending code to FSI opens FSI window but the cursor does not focus to it. Unlike Neovim, Vim doesn't support asynchronous buffer updating so you have to input something (e.g. moving cursor) to see the result. You can change this behavior in settings.</li>
+</ul>
+<h4 id="alt-"><code>Alt-@</code></h4>
+<ul>
+<li>Toggles FSI window. FSI windows shown in different tabpages share the same FSI session.</li>
+<li>When opened, the cursor automatically focuses to the FSI window (unlike in <code>Alt-Enter</code> by default).</li>
+</ul>
+<p>You can customize the location of FSI, key mappings, etc. See <a href="#f-interactive-settings">the documentation below</a>.</p>
+<h3 id="settings">Settings</h3>
+<p>Refer to <a href="https://github.com/autozimu/LanguageClient-neovim/wiki/Recommended-Settings#recommended-settings">LanguageClient-neovim's recommended settings</a>
+for features provided via Language Server Protocol.</p>
+<p>To be added as requested for F#-specific features.</p>
+<h4 id="fsautocomplete-settings">FsAutoComplete Settings</h4>
+<ul>
+<li>Ionide-vim uses <code>snake_case</code> for the setting names.
+<ul>
+<li>For FSAC settings only, <code>CamelCase</code> can also be used (as it gets serialized to a F# record).</li>
+<li>If both <code>snake_case</code> and <code>CamelCase</code> are specified, the <code>snake_case</code> one will be preferred.</li>
+</ul>
+</li>
+<li>You can change the values at runtime and then notify the changes to FSAC by <code>:FSharpUpdateServerConfig</code>.</li>
+<li>Some of the settings may not work in Ionide-vim as it is lacking the corresponding feature of Ionide-VSCode.</li>
+<li>If not specified, the recommended default values described on the FSAC's documentation will be used.
+<ul>
+<li>If you are using a JSON configuration file though <code>g:LanguageClient_settingsPath</code>, the recommended default values will override the settings loaded from it.</li>
+<li>You can disable this by <code>let g:fsharp#use_recommended_server_config = 0</code>.</li>
+</ul>
+</li>
+</ul>
+<p>See <a href="https://github.com/fsharp/FsAutoComplete#settings">the documentation of FSAC</a>
+for the complete list of available settings. Frequently used ones are:</p>
+<h5 id="enabledisable-automatic-calling-of-fsharploadworkspaceauto-on-opening-f-files-default-enabled">Enable/disable automatic calling of <code>:FSharpLoadWorkspaceAuto</code> on opening F# files (default: enabled)</h5>
+<pre><code class="language-.vim">let g:fsharp#automatic_workspace_init = 1 &quot; 0 to disable.
+</code></pre>
+<h5 id="set-the-deep-level-of-directory-hierarchy-when-searching-for-slnfsprojs-default-2">Set the deep level of directory hierarchy when searching for sln/fsprojs (default: <code>2</code>)</h5>
+<pre><code class="language-.vim">let g:fsharp#workspace_mode_peek_deep_level = 2
+</code></pre>
+<h5 id="ignore-specific-directories-when-loading-a-workspace-default-empty">Ignore specific directories when loading a workspace (default: empty)</h5>
+<pre><code class="language-.vim">let g:fsharp#exclude_project_directories = ['paket-files']
+</code></pre>
+<h5 id="enabledisable-linter-and-unused-opensdeclarations-analyzer-default-all-enabled">Enable/disable linter and unused opens/declarations analyzer (default: all enabled)</h5>
+<p>You may want to bind <code>LanguageClient#textDocument_codeAction()</code> to some shortcut key. Refer to their docs.</p>
+<pre><code class="language-.vim">&quot; 0 to disable.
+let g:fsharp#linter = 1
+let g:fsharp#unused_opens_analyzer = 1
+let g:fsharp#unused_declarations_analyzer = 1
+</code></pre>
+<h4 id="editor-settings">Editor Settings</h4>
+<h5 id="enabledisable-automatic-calling-of-fsharpreloadworkspace-on-saving-fsproj-default-enabled">Enable/disable automatic calling of <code>:FSharpReloadWorkspace</code> on saving <code>fsproj</code> (default: enabled)</h5>
+<pre><code class="language-.vim">let g:fsharp#automatic_reload_workspace = 1 &quot; 0 to disable.
+</code></pre>
+<h5 id="show-type-signature-at-cursor-position-default-enabled">Show type signature at cursor position (default: enabled)</h5>
+<pre><code class="language-.vim">let g:fsharp#show_signature_on_cursor_move = 1 &quot; 0 to disable.
+</code></pre>
+<h4 id="f-interactive-settings">F# Interactive Settings</h4>
+<h5 id="change-the-f-interactive-command-to-be-used-within-ionide-vim-default-dotnet-fsi">Change the F# Interactive command to be used within Ionide-vim (default: <code>dotnet fsi</code>)</h5>
+<p>If you want to use a .NET Framework FSI instead of .NET Core one, set <code>g:fsharp#use_sdk_scripts</code> to <code>0</code>.
+See: https://github.com/fsharp/FsAutoComplete/pull/466#issue-324869672</p>
+<pre><code class="language-.vim">let g:fsharp#fsi_command = &quot;fsharpi&quot;
+let g:fsharp#use_sdk_scripts = 0 &quot; for net462 FSI
+</code></pre>
+<h5 id="set-additional-runtime-arguments-passed-to-fsi-default--empty">Set additional runtime arguments passed to FSI (default: <code>[]</code> (empty))</h5>
+<p>Sets additional arguments of the FSI instance Ionide-vim spawns and changes the behavior of FSAC accordingly when editing fsx files.</p>
+<pre><code class="language-.vim">let g:fsharp#fsi_extra_parameters = ['--langversion:preview']
+</code></pre>
+<h5 id="customize-how-fsi-window-is-opened-default-botright-10new">Customize how FSI window is opened (default: <code>botright 10new</code>)</h5>
+<p>It must create a new empty window and then focus to it.</p>
+<p>See <a href="http://vimdoc.sourceforge.net/htmldoc/windows.html#opening-window"><code>:help opening-window</code></a> for details.</p>
+<pre><code class="language-.vim">let g:fsharp#fsi_window_command = &quot;botright vnew&quot;
+</code></pre>
+<h5 id="set-if-sending-lineselection-to-fsi-shoule-make-the-cursor-focus-to-fsi-window-default-disabled">Set if sending line/selection to FSI shoule make the cursor focus to FSI window (default: disabled)</h5>
+<p>If you are using Vim, you might want to enable this to see the result without inputting something.</p>
+<pre><code class="language-.vim">let g:fsharp#fsi_focus_on_send = 1 &quot; 0 to not to focus.
+</code></pre>
+<h5 id="change-the-key-mappings-default-vscode">Change the key mappings (default: <code>vscode</code>)</h5>
+<ul>
+<li><code>vscode</code>:     Default. Same as in Ionide-VSCode (<code>Alt-Enter</code> to send, <code>Alt-@</code> to toggle terminal).
+<ul>
+<li><code>&lt;M-CR&gt;</code> in Neovim / <code>&lt;ESC&gt;&lt;CR&gt;</code> in Vim: Sends line/selection to FSI.</li>
+<li><code>&lt;M-@&gt;</code>  in Neovim / <code>&lt;ESC&gt;@</code>    in Vim: Toggles FSI window.</li>
+</ul>
+</li>
+<li><code>vim-fsharp</code>: Same as in <a href="https://github.com/fsharp/vim-fsharp#fsharp-interactive">fsharp/vim-fsharp</a>. Note that <code>&lt;leader&gt;</code> is mapped to backslash by default. See <a href="http://vimdoc.sourceforge.net/htmldoc/map.html#mapleader"><code>:help mapleader</code></a>.
+<ul>
+<li><code>&lt;leader&gt;i</code> : Sends line/selecion to FSI.</li>
+<li><code>&lt;leader&gt;e</code> : Toggles FSI window.</li>
+</ul>
+</li>
+<li><code>custom</code>:     You must set both <code>g:fsharp#fsi_keymap_send</code> and <code>g:fsharp#fsi_keymap_toggle</code> by yourself.
+<ul>
+<li><code>g:fsharp#fsi_keymap_send</code>   : Sends line/selection to FSI.</li>
+<li><code>g:fsharp#fsi_keymap_toggle</code> : Toggles FSI window.</li>
+</ul>
+</li>
+<li><code>none</code>:       Disables mapping.</li>
+</ul>
+<pre><code class="language-.vim">&quot; custom mapping example
+let g:fsharp#fsi_keymap = &quot;custom&quot;
+let g:fsharp#fsi_keymap_send   = &quot;&lt;C-e&gt;&quot;
+let g:fsharp#fsi_keymap_toggle = &quot;&lt;C-@&gt;&quot;
+</code></pre>
+<h3 id="advanced-tips">Advanced Tips</h3>
+<h4 id="show-tooltips-on-cursorhold">Show tooltips on CursorHold</h4>
+<p>If you are using neovim 0.4.0 or later, floating windows will be used for tooltips and you might find it convenient to make them appear if the cursor does not move for several seconds.</p>
+<pre><code class="language-.vim">if has('nvim') &amp;&amp; exists('*nvim_open_win')
+  augroup FSharpShowTooltip
+    autocmd!
+    autocmd CursorHold *.fs,*.fsi,*.fsx call fsharp#showTooltip()
+  augroup END
+endif
+</code></pre>
+<p>Note that you can set the delay time to show the tooltip by <a href="http://vimdoc.sourceforge.net/htmldoc/options.html#%27updatetime%27"><code>set updatetime=&lt;ms&gt;</code></a>. The default delay is 4 seconds, which you may find too slow.</p>
+
+        </div>
+      </div>
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/jquery.sticky.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script src="/static/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/static/js/learn.js"></script>
+    <script src="/static/js/hugo-learn.js"></script>
+    <link rel="stylesheet" href="/static/mermaid/mermaid.css"/>
+    <script src="/static/mermaid/mermaid.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>

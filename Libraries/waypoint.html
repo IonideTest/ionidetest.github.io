@@ -1,0 +1,375 @@
+<html class="js csstransforms3d">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Ionide
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/css/nucleus.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/static/css/hybrid.css"/>
+    <link rel="stylesheet" href="/static/css/featherlight.min.css"/>
+    <link rel="stylesheet" href="/static/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" href="/static/css/auto-complete.css"/>
+    <link rel="stylesheet" href="/static/css/atom-one-dark-reasonable.css"/>
+    <link rel="stylesheet" href="/static/css/theme.css"/>
+    <link rel="stylesheet" href="/static/css/theme-blue.css"/>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1 id="logo">
+            Ionide
+          </h1>
+          <img id="logo-pic" src="/static/images/logo.png"/>
+        </div>
+        <div class="searchbox">
+          <label for="search-by">
+            <i class="fas fa-search"></i>
+          </label>
+          <input data-search-input="" id="search-by" type="search" placeholder="Search..."/>
+          <span data-search-clear="">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <script type="text/javascript" src="/static/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/static/js/auto-complete.js"></script>
+        <script type="text/javascript">
+          var baseurl =''
+        </script>
+        <script type="text/javascript" src="/static/js/search.js"></script>
+        <script src="/static/js/highlight.pack.js"></script>
+        <script>
+          hljs.initHighlightingOnLoad();
+        </script>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li class="dd-item">
+            <a href="/index.html">
+              <b>
+                1
+              </b>
+              Home
+            </a>
+          </li>
+          <li class="dd-item">
+            <a href="/sponsors.html">
+              <b>
+                2
+              </b>
+              Sponsors
+            </a>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                3
+              </b>
+              Libraries
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Libraries/waypoint.html">
+                  <b>
+                    3.1
+                  </b>
+                  Waypoint
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/fsanalyzers.html">
+                  <b>
+                    3.2
+                  </b>
+                  FSharp.Analyzers.SDK
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/eventhorizon.html">
+                  <b>
+                    3.3
+                  </b>
+                  Ionide.EventHorizon
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                4
+              </b>
+              Tools
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Tools/fsac.html">
+                  <b>
+                    4.1
+                  </b>
+                  FsAutoComplete
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/fornax.html">
+                  <b>
+                    4.2
+                  </b>
+                  Fornax
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/dpi.html">
+                  <b>
+                    4.3
+                  </b>
+                  dotnet-proj-info
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/forge.html">
+                  <b>
+                    4.4
+                  </b>
+                  Forge
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                5
+              </b>
+              Editors
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Editors/editoresOverview.html">
+                  <b>
+                    5.1
+                  </b>
+                  Editors overview
+                </a>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.2
+                  </b>
+                  Vim
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/overview.html">
+                      <b>
+                        5.2.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/getting_started.html">
+                      <b>
+                        5.2.2
+                      </b>
+                      Installation
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/usage.html">
+                      <b>
+                        5.2.3
+                      </b>
+                      How to use
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.3
+                  </b>
+                  Code
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Code/overview.html">
+                      <b>
+                        5.3.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/getting_started.html">
+                      <b>
+                        5.3.2
+                      </b>
+                      Getting started
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/generalInfo.html">
+                      <b>
+                        5.3.3
+                      </b>
+                      General information
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/editing.html">
+                      <b>
+                        5.3.4
+                      </b>
+                      Editing evolved
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/options.html">
+                      <b>
+                        5.3.5
+                      </b>
+                      Customization
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <section id="shortcuts">
+          <h3>
+            Shortcuts
+          </h3>
+          <ul>
+            <li>
+              <a class="padding" href="/">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="https://github.com/ionide">
+                <i class="fab fa-github"></i>
+                GitHub Organization
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="/callToAction.html">
+                <i class="far fa-file-alt"></i>
+                Call To Action
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>Built with <a href="https://github.com/ionide/Fornax">Fornax</a>, inspired by <a href="https://learn.netlify.com/en/">Hugo Learn</a></p>
+        </section>
+      </div>
+    </nav>
+    <section id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="body-inner">
+          <span id="sidebar-toggle-span">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+              <i class="fas fa-bars"></i>
+               navigation
+            </a>
+          </span>
+          <h1 id="waypoint">Waypoint</h1>
+<p><strong>GitHub link:</strong> <a href="https://github.com/ionide/Waypoint">https://github.com/ionide/Waypoint</a>
+<strong>License:</strong> <a href="https://github.com/ionide/Waypoint/blob/master/LICENSE.md">MIT</a></p>
+<p>Opinionated solution template for building F# OSS libraries and tools.</p>
+<p>Sample repository is available here - https://github.com/Krzysztof-Cieslak/SampleWaypoint</p>
+<p>Sample generated documentation can be found here - http://kcieslak.io/SampleWaypoint</p>
+<h2 id="whats-included-in-template">What's included in template</h2>
+<ul>
+<li>Paket, FAKE, and Fornax added as <code>dotnet</code> local tools (<code>.config/dotnet-tools.json</code>)</li>
+<li><code>build.fsx</code> file, containing default FAKE script with targets for building, testing, documentation generation, publishing to GitHub, and publishing to NuGet</li>
+<li><code>paket.dependencies</code> with basic set of dependencies</li>
+<li><code>src</code> folder containing 2 projects - one class library (<code>netstandard2.0</code>), and CLI tool (<code>netcoreapp3.1</code>)</li>
+<li><code>test</code> folder containing UnitTest project using Expecto and FsCheck</li>
+<li><code>docs</code> folder with Fornax documentation template that will generate nice documentation for your project.</li>
+<li><code>.devcontainer</code> folder with definition of <a href="https://code.visualstudio.com/docs/remote/containers">Development Container</a></li>
+<li><code>.github/workflows</code> folder with definition for 2 GitHub actions - one for building and testing code as CI, one for deploying documentation when new tag is pushed. To use latter, you need to define <code>PERSONAL_TOKEN</code> secret in GitHub repo settings with Personal Access Token.</li>
+<li><code>.github/ISSUE_TEMPLATE</code> folder with 2 different issue templates - one for bug report, other one for feature request</li>
+</ul>
+<h2 id="documentation-theme">Documentation Theme</h2>
+<p>Template includes, out-of-the-box, nice theme for your project documentation, which integrates with FSharp.Formatting to create also API reference</p>
+<ul>
+<li>Sample documentation produced by the template can be found on http://kcieslak.io/SampleWaypoint.</li>
+<li>Created theme is partial port to Fornax of <a href="https://learn.netlify.com/en/">Hugo Learn theme</a>.</li>
+<li>You define content as markdown files</li>
+<li>Support for unlimited multi-level navigation</li>
+<li>Use FSharp.Formatting to create API reference for the project - sample: http://kcieslak.io/SampleWaypoint/Reference/ApiRef.html</li>
+<li>Use <a href="https://lunrjs.com/">Lunr.js</a> to provide client side search based on generated by Fornax search index - sample: try searching for <code>Lorem</code> or <code>Sample</code> in search available on http://kcieslak.io/SampleWaypoint</li>
+<li>Use <a href="https://mermaid-js.github.io/mermaid/#/">Mermaid.js</a> to provide client side render diagrams and graphs - sample: http://kcieslak.io/SampleWaypoint/diagrams.html</li>
+</ul>
+<h2 id="how-to-use-template">How to use template</h2>
+<ol>
+<li>Install <code>dotnet new</code> template with <code>dotnet new -i Waypoint</code></li>
+<li>Create new folder <code>mkdir TestApp</code> and go into it <code>cd TestApp</code></li>
+<li>Create new project with <code>dotnet new Waypoint</code></li>
+</ol>
+<h2 id="motivation">Motivation</h2>
+<p>Waypoint got created for couple of reasons. Mostly because I (Chris) was unhappy with possible options &quot;on the market&quot; - don't get me wrong, I think projects like MiniScaffold are doing great job, but it was just not hitting my personal sweet spot for what I wanted from project scaffold.
+Secondly I strongly believe into having opinionated set of tools working well together, providing great Developer Experience - building such tools is something I've been doing for last couple of years, so providing single &quot;package&quot; seems like a logical next step.
+Thirdly, I want Waypoint to be &quot;canonical&quot; example of using Fornax for documentation generation - scaffolded template contains really nice theme for documentation, integration with FSharp.Formatting, built-in search support, and more.</p>
+<h2 id="inspired-by">Inspired by</h2>
+<p>No project lives in vacuum - good ideas are very often just small improvements on the previous state of art. Waypoint has been heavily inspired by:</p>
+<ul>
+<li><a href="https://github.com/fsprojects/ProjectScaffold">fsprojects/ProjectScaffold</a> - original F# OSS project template used by countless projects in F# ecosystem</li>
+<li><a href="https://github.com/TheAngryByrd/MiniScaffold">TheAngryByrd/MiniScaffold</a> - great project scaffold created by @TheAngryByrd, having many different options and functionalities</li>
+<li><a href="https://github.com/SAFE-Stack/SAFE-template">SAFE-Stack/SAFE-template</a> - SAFE Stack template by @theimowski</li>
+</ul>
+<h2 id="used-projects">Used projects</h2>
+<ul>
+<li><a href="https://dotnet.microsoft.com/download">.Net Core SDK</a> - modern, OSS, cross platform distribution of .Net; <code>dotnet</code> - CLI tool for developers</li>
+<li><a href="https://fsprojects.github.io/Paket/">Paket</a> - Paket is a dependency manager for .NET projects, popular in F# community.</li>
+<li><a href="https://fake.build/">FAKE</a> - F# build DSL and task runner</li>
+<li><a href="https://ionide.io/Tools/fornax.html">Fornax</a> - scriptable static site generator using type safe F# DSL to define page layouts</li>
+<li><a href="https://github.com/haf/expecto">Expecto</a> - F# test library</li>
+<li><a href="https://github.com/fscheck/FsCheck">FsCheck</a> - Random testing library for F#</li>
+</ul>
+<h2 id="faq">FAQ</h2>
+<ol>
+<li>What about <code>fsprojects/ProjectScaffold</code> ?</li>
+</ol>
+<p>ProjectScaffold is fairly outdated template, and I think everyone, including original creators of ProjectScaffold will welcome modern alternative.</p>
+<ol start="2">
+<li>What about <code>TheAngryByrd/MiniScaffold</code> ?</li>
+</ol>
+<p>MiniScaffold is great project, with many options and functionalities - such as code formatting, test coverage, sourcelinks and more. I've decided to create a scaffold feeding my needs and needs of Ionide projects that's bit more opinionated, and provide less functionalities. Please use whichever scaffold you want!</p>
+<ol start="3">
+<li>Why do we even need solution scaffold? Is <code>dotnet new console</code> and <code>dotnet build</code> not enough?</li>
+</ol>
+<p>No, it's not enough. Real world project, unlike conference demos, requires more structure, testing, documentation - especially OSS projects, if you care for adaption and user happiness. Beacuse of that we need something that will provide nice experience for both users and developers of the OSS projects.</p>
+
+        </div>
+      </div>
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/jquery.sticky.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script src="/static/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/static/js/learn.js"></script>
+    <script src="/static/js/hugo-learn.js"></script>
+    <link rel="stylesheet" href="/static/mermaid/mermaid.css"/>
+    <script src="/static/mermaid/mermaid.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>

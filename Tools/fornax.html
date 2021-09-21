@@ -1,0 +1,434 @@
+<html class="js csstransforms3d">
+  <head>
+    <meta charSet="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>
+      Ionide
+    </title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/images/favicon.png"/>
+    <link rel="stylesheet" href="/static/css/nucleus.css"/>
+    <link rel="stylesheet" href="/static/css/fontawesome-all.min.css"/>
+    <link rel="stylesheet" href="/static/css/hybrid.css"/>
+    <link rel="stylesheet" href="/static/css/featherlight.min.css"/>
+    <link rel="stylesheet" href="/static/css/perfect-scrollbar.min.css"/>
+    <link rel="stylesheet" href="/static/css/auto-complete.css"/>
+    <link rel="stylesheet" href="/static/css/atom-one-dark-reasonable.css"/>
+    <link rel="stylesheet" href="/static/css/theme.css"/>
+    <link rel="stylesheet" href="/static/css/theme-blue.css"/>
+    <script src="/static/js/jquery-3.3.1.min.js"></script>
+  </head>
+  <body>
+    <nav id="sidebar">
+      <div id="header-wrapper">
+        <div id="header">
+          <h1 id="logo">
+            Ionide
+          </h1>
+          <img id="logo-pic" src="/static/images/logo.png"/>
+        </div>
+        <div class="searchbox">
+          <label for="search-by">
+            <i class="fas fa-search"></i>
+          </label>
+          <input data-search-input="" id="search-by" type="search" placeholder="Search..."/>
+          <span data-search-clear="">
+            <i class="fas fa-times"></i>
+          </span>
+        </div>
+        <script type="text/javascript" src="/static/js/lunr.min.js"></script>
+        <script type="text/javascript" src="/static/js/auto-complete.js"></script>
+        <script type="text/javascript">
+          var baseurl =''
+        </script>
+        <script type="text/javascript" src="/static/js/search.js"></script>
+        <script src="/static/js/highlight.pack.js"></script>
+        <script>
+          hljs.initHighlightingOnLoad();
+        </script>
+      </div>
+      <div class="highlightable">
+        <ul class="topics">
+          <li class="dd-item">
+            <a href="/index.html">
+              <b>
+                1
+              </b>
+              Home
+            </a>
+          </li>
+          <li class="dd-item">
+            <a href="/sponsors.html">
+              <b>
+                2
+              </b>
+              Sponsors
+            </a>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                3
+              </b>
+              Libraries
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Libraries/waypoint.html">
+                  <b>
+                    3.1
+                  </b>
+                  Waypoint
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/fsanalyzers.html">
+                  <b>
+                    3.2
+                  </b>
+                  FSharp.Analyzers.SDK
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Libraries/eventhorizon.html">
+                  <b>
+                    3.3
+                  </b>
+                  Ionide.EventHorizon
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                4
+              </b>
+              Tools
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Tools/fsac.html">
+                  <b>
+                    4.1
+                  </b>
+                  FsAutoComplete
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/fornax.html">
+                  <b>
+                    4.2
+                  </b>
+                  Fornax
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/dpi.html">
+                  <b>
+                    4.3
+                  </b>
+                  dotnet-proj-info
+                </a>
+              </li>
+              <li class="dd-item">
+                <a href="/Tools/forge.html">
+                  <b>
+                    4.4
+                  </b>
+                  Forge
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class="dd-item parent">
+            <a>
+              <b>
+                5
+              </b>
+              Editors
+            </a>
+            <ul class="child">
+              <li class="dd-item">
+                <a href="/Editors/editoresOverview.html">
+                  <b>
+                    5.1
+                  </b>
+                  Editors overview
+                </a>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.2
+                  </b>
+                  Vim
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/overview.html">
+                      <b>
+                        5.2.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/getting_started.html">
+                      <b>
+                        5.2.2
+                      </b>
+                      Installation
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Vim/usage.html">
+                      <b>
+                        5.2.3
+                      </b>
+                      How to use
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="dd-item parent">
+                <a>
+                  <b>
+                    5.3
+                  </b>
+                  Code
+                </a>
+                <ul class="child">
+                  <li class="dd-item">
+                    <a href="/Editors/Code/overview.html">
+                      <b>
+                        5.3.1
+                      </b>
+                      Overview
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/getting_started.html">
+                      <b>
+                        5.3.2
+                      </b>
+                      Getting started
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/generalInfo.html">
+                      <b>
+                        5.3.3
+                      </b>
+                      General information
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/editing.html">
+                      <b>
+                        5.3.4
+                      </b>
+                      Editing evolved
+                    </a>
+                  </li>
+                  <li class="dd-item">
+                    <a href="/Editors/Code/options.html">
+                      <b>
+                        5.3.5
+                      </b>
+                      Customization
+                    </a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <section id="shortcuts">
+          <h3>
+            Shortcuts
+          </h3>
+          <ul>
+            <li>
+              <a class="padding" href="/">
+                <i class="fas fa-home"></i>
+                Home
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="https://github.com/ionide">
+                <i class="fab fa-github"></i>
+                GitHub Organization
+              </a>
+            </li>
+            <li>
+              <a class="padding" href="/callToAction.html">
+                <i class="far fa-file-alt"></i>
+                Call To Action
+              </a>
+            </li>
+          </ul>
+        </section>
+        <section id="footer">
+          <p>Built with <a href="https://github.com/ionide/Fornax">Fornax</a>, inspired by <a href="https://learn.netlify.com/en/">Hugo Learn</a></p>
+        </section>
+      </div>
+    </nav>
+    <section id="body">
+      <div id="overlay"></div>
+      <div class="padding highlightable">
+        <div id="body-inner">
+          <span id="sidebar-toggle-span">
+            <a href="#" id="sidebar-toggle" data-sidebar-toggle="">
+              <i class="fas fa-bars"></i>
+               navigation
+            </a>
+          </span>
+          <h1 id="fornax">Fornax</h1>
+<p><strong>GitHub link:</strong> <a href="https://github.com/ionide/Fornax">https://github.com/ionide/Fornax</a>
+<strong>License:</strong> <a href="https://github.com/ionide/Fornax/blob/master/LICENSE">MIT</a></p>
+<p>Fornax is a <strong>scriptable static site generator</strong> using type safe F# DSL to define page layouts. This documentation has been built using Fornax.</p>
+<h2 id="installation">Installation</h2>
+<p>Fornax is released as a global .Net Core tool. You can install it with <code>dotnet tool install fornax -g</code></p>
+<h2 id="cli-application">CLI Application</h2>
+<p>The main functionality of Fornax comes from CLI applications that lets user scaffold, and generate webpages.</p>
+<ul>
+<li><code>fornax new</code> - scaffolds new blog in current working directory using really simple template</li>
+<li><code>fornax build</code> - builds webpage, puts output to <code>_public</code> folder</li>
+<li><code>fornax watch</code> - starts a small webserver that hosts your generated site, and a background process that recompiles the site whenever any changes are detected. This is the recommended way of working with Fornax.</li>
+<li><code>fornax clean</code> - removes output directory and any temp files</li>
+<li><code>fornax version</code> - prints out the currently-installed version of Fornax</li>
+<li><code>fornax help</code> - prints out help</li>
+</ul>
+<h2 id="getting-started">Getting started</h2>
+<p>Easiest way to get started with <code>fornax</code> is running <code>fornax new</code> and than <code>fornax watch</code> - this will create fairly minimal blog site template, start <code>fornax</code> in watch mode and start webserver. Then you can go to the <code>localhost:8080</code> in your browser to see the page, and edit the scaffolded files in editor to make changes.
+Additionally, you can take a look at <code>samples</code> folder in this repository - it have couple more <code>loaders</code> and <code>generators</code> that you can potentially use in your website.</p>
+<h2 id="website-definition">Website definition</h2>
+<p>Fornax is using normal F# code (F# script files) to define any of it's core concepts: <code>loaders</code>, <code>generators</code> and <code>config</code>.</p>
+<h3 id="sitecontents">SiteContents</h3>
+<p><code>SiteContents</code> is fairly simple type that provides access to any information available to the Fornax. The information is put into it by using <code>loaders</code> and then can be accessed in the <code>generators</code>.</p>
+<p><code>SiteContents</code> has several functions in it's public API:</p>
+<pre><code class="language-fsharp">type A = {a: string}
+type B = {b: int; c: int}
+
+let sc = SiteContents()
+sc.Add({a = &quot;test&quot;})
+sc.Add({a = &quot;test2&quot;})
+sc.Add({a = &quot;test3&quot;})
+
+sc.Add({b = 1; c = 3}) //You can add objects of different types, `Add` method is generic.
+
+let as = sc.TryGetValues&lt;A&gt;() //This will return option of sequence of all added elements for given type - in this case it will be 3 elements
+let b = sc.TryGetValue&lt;B&gt;() //This will return option of element for given type
+</code></pre>
+<h3 id="loaders">Loaders</h3>
+<p><code>Loader</code> is an F# script responsible for loading external data into generation context. The data typically includes things like content of <code>.md</code> files, some global site configuration, etc. But since those are normal F# functions, you can do whatever you need.
+Want to load information from local database, or from internet? Sure, why not. Want to use World Bank TP to include some of the World Bank statistics? That's also possible - you can use in <code>loader</code> any dependency as in normal F# script.</p>
+<p><code>Loaders</code> are normal F# functions that takes as an input <code>SiteContents</code> and absolute path to the page root, and returns <code>SiteContents</code>:</p>
+<pre><code class="language-fsharp">#r &quot;../_lib/Fornax.Core.dll&quot;
+
+type Page = {
+    title: string
+    link: string
+}
+
+let loader (projectRoot: string) (siteContent: SiteContents) =
+    siteContent.Add({title = &quot;Home&quot;; link = &quot;/&quot;})
+    siteContent.Add({title = &quot;About&quot;; link = &quot;/about.html&quot;})
+    siteContent.Add({title = &quot;Contact&quot;; link = &quot;/contact.html&quot;})
+
+    siteContent
+</code></pre>
+<p><strong>Important note</strong>: You can (and probably should) define multiple loaders - they will all be executed before generation of site, and will propagate information into <code>SiteContents</code></p>
+<h3 id="generators">Generators</h3>
+<p><code>Generator</code> is an F# script responsible for generating output of the Fornax process. This is usually <code>.html</code> file, but can be anything else - actually <code>generator</code> API just requires to return <code>string</code> that will be saved to file. Generators are, again, plain F# functions that as an input takes <code>SiteContents</code>, absolute path to the page root, relative path to the file that's currently processed (may be empty for the global generators) and returns <code>string</code>:</p>
+<pre><code class="language-fsharp">#r &quot;../_lib/Fornax.Core.dll&quot;
+#if !FORNAX
+#load &quot;../loaders/postloader.fsx&quot;
+#endif
+
+open Html
+
+let generate' (ctx : SiteContents) (_: string) =
+    let posts = ctx.TryGetValues&lt;Postloader.Post&gt; () |&gt; Option.defaultValue Seq.empty
+
+    let psts =
+        posts
+        |&gt; Seq.toList
+        |&gt; List.map (fun p -&gt; span [] [!! p.link] )
+
+    html [] [
+        div [] psts
+    ]
+
+let generate (ctx : SiteContents) (projectRoot: string) (page: string) =
+    generate' ctx page
+    |&gt; HtmlElement.ToString
+</code></pre>
+<p><strong>Important note</strong>: You can (and probably should) define multiple generators - they will generate different kinds of pages and/or content, such as <code>post</code>, <code>index</code>, <code>about</code>, <code>rss</code> etc.</p>
+<h3 id="configuration">Configuration</h3>
+<p><code>Configuration</code> is a F# script file that defines when which analyzers need to be run, and how to save its output. <code>Config.fsx</code> file needs to be put in the root of your site project (the place from which you run <code>fornax</code> CLI tool)</p>
+<pre><code class="language-fsharp">#r &quot;../_lib/Fornax.Core.dll&quot;
+
+open Config
+open System.IO
+
+let postPredicate (projectRoot: string, page: string) =
+    let fileName = Path.Combine(projectRoot,page)
+    let ext = Path.GetExtension page
+    if ext = &quot;.md&quot; then
+        let ctn = File.ReadAllText fileName
+        ctn.Contains(&quot;layout: post&quot;)
+    else
+        false
+
+let staticPredicate (projectRoot: string, page: string) =
+    let ext = Path.GetExtension page
+    if page.Contains &quot;_public&quot; ||
+       page.Contains &quot;_bin&quot; ||
+       page.Contains &quot;_lib&quot; ||
+       page.Contains &quot;_data&quot; ||
+       page.Contains &quot;_settings&quot; ||
+       page.Contains &quot;_config.yml&quot; ||
+       page.Contains &quot;.sass-cache&quot; ||
+       page.Contains &quot;.git&quot; ||
+       page.Contains &quot;.ionide&quot; ||
+       ext = &quot;.fsx&quot;
+    then
+        false
+    else
+        true
+
+let config = {
+    Generators = [
+        {Script = &quot;less.fsx&quot;; Trigger = OnFileExt &quot;.less&quot;; OutputFile = ChangeExtension &quot;css&quot; }
+        {Script = &quot;sass.fsx&quot;; Trigger = OnFileExt &quot;.scss&quot;; OutputFile = ChangeExtension &quot;css&quot; }
+        {Script = &quot;post.fsx&quot;; Trigger = OnFilePredicate postPredicate; OutputFile = ChangeExtension &quot;html&quot; }
+        {Script = &quot;staticfile.fsx&quot;; Trigger = OnFilePredicate staticPredicate; OutputFile = SameFileName }
+        {Script = &quot;index.fsx&quot;; Trigger = Once; OutputFile = NewFileName &quot;index.html&quot; }
+
+    ]
+}
+
+</code></pre>
+
+        </div>
+      </div>
+    </section>
+    <div style="left: -1000px; overflow: scroll; position: absolute; top: -1000px; border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;">
+      <div style="border: none; box-sizing: content-box; height: 200px; margin: 0px; padding: 0px; width: 200px;"></div>
+    </div>
+    <script src="/static/js/clipboard.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.min.js"></script>
+    <script src="/static/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="/static/js/jquery.sticky.js"></script>
+    <script src="/static/js/featherlight.min.js"></script>
+    <script src="/static/js/modernizr.custom-3.6.0.js"></script>
+    <script src="/static/js/learn.js"></script>
+    <script src="/static/js/hugo-learn.js"></script>
+    <link rel="stylesheet" href="/static/mermaid/mermaid.css"/>
+    <script src="/static/mermaid/mermaid.js"></script>
+    <script>
+      mermaid.initialize({ startOnLoad: true });
+    </script>
+  </body>
+</html>
